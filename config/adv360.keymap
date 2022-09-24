@@ -15,6 +15,8 @@
 #define COMBO(k1, k2, bind) combo_ ## k1 ## _ ## k2 { \
 bindings = <&kp bind>; key-positions = <k1 k2>; timeout-ms = <30>; }
 
+#define SLEEP LC(LG(Q))
+
 / {
   behaviors {
     #include "macros.dtsi"
@@ -33,6 +35,7 @@ bindings = <&kp bind>; key-positions = <k1 k2>; timeout-ms = <30>; }
   combos {
     compatible = "zmk,combos";
     COMBO(16, 17, LC(TAB));
+    COMBO(12, 13, SLEEP);
   };
 
     keymap {
@@ -85,7 +88,7 @@ bindings = <&kp bind>; key-positions = <k1 k2>; timeout-ms = <30>; }
   XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX
   XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX &kp LEFT &kp DOWN &kp UP &kp RIGHT XXX XXX
   XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX
-  XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX &kp MINUS XXX XXX XXX XXX XXX
+  XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX
             >;
         };
 
