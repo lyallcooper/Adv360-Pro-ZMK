@@ -1,15 +1,7 @@
-
 /*
  * Copyright (c) 2020 The ZMK Contributors
  *
  * SPDX-License-Identifier: MIT
- */
-
-
-/* THIS FILE WAS GENERATED!
- *
- * This file was generated automatically. You may or may not want to
- * edit it directly.
  */
 
 #include <behaviors.dtsi>
@@ -51,7 +43,7 @@ bindings = <&kp bind>; key-positions = <k1 k2>; timeout-ms = <30>; }
       &kp TAB      &kp Q     &kp W     &kp E      &kp R     &kp T              &none     &none      &kp Y      &kp U      &kp I      &kp O     &kp P   &kp BSLH
  &mt LCMD ESC      &kp A     &kp S     &kp D      &kp F     &kp G              &none  &kp LCMD   &kp LALT                        &kp LCTRL  &kp RCMD      &none     &kp H   &kp J      &kp K    &kp L  &kp SEMI    &kp SQT
     &kp LSHFT      &kp Z     &kp X     &kp C      &kp V     &kp B              &none     &none   &kp HOME      &none      &none  &kp PG_UP     &none      &none     &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-        &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT  &kp BSPC            &kp DEL   &kp END  &kp PG_DN  &kp ENTER  &kp SPACE   &kp DOWN    &kp UP   &kp LBKT  &kp RBKT   &mo 2
+        &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT  &lt 4 BSPC            &kp DEL   &kp END  &kp PG_DN  &kp ENTER  &kp SPACE   &kp DOWN    &kp UP   &kp LBKT  &kp RBKT   &mo 2
             >;
         };
 
@@ -81,7 +73,17 @@ bindings = <&kp bind>; key-positions = <k1 k2>; timeout-ms = <30>; }
   &none         &none         &none         &none         &none            &none                       &bootloader  &bootloader         &none         &none            &none         &none         &none                   &none
   &none         &none         &none         &none         &none            &none            &rgb_ug RGB_MEFS_CMD 5   &bt BT_CLR         &none                                   &bt BT_CLR    &bt BT_CLR  &rgb_ug RGB_MEFS_CMD 5   &none   &none   &none   &none   &none   &none
   &none         &none         &none         &none         &none            &none                             &none        &none         &none         &none            &none         &none         &none                   &none   &none   &none   &none   &none   &none   &none
-  &none         &none         &none    &bl BL_INC    &bl BL_DEC  &rgb_ug RGB_TOG                        &bl BL_TOG        &none         &none    &bl BL_TOG  &rgb_ug RGB_TOG    &bl BL_INC    &bl BL_DEC                   &none   &none   &none
+  &none         &none         &none    &bl BL_INC    &bl BL_DEC  &rgb_ug RGB_TOG                        &bl BL_TOG        &none         &none    &bl BL_TOG  &rgb_ug RGB_TOG    &bl BL_DEC    &bl BL_INC                   &none   &none   &none
+            >;
+        };
+
+        layer_symbol {
+            bindings = <
+  &none &none &none &none &none &none &none &none &none &none &none &none &none &none
+  &none &none &none &none &none &none &none &none &none &none &none &none &none &none
+  &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none
+  &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none
+  &none &none &none &none &none &none &none &none &none &none &kp MINUS &none &none &none &none &none
             >;
         };
 
