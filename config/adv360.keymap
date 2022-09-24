@@ -37,7 +37,6 @@ bindings = <&kp bind>; key-positions = <k1 k2>; timeout-ms = <30>; }
         #binding-cells = <2>;
         tapping-term-ms = <200>;
         quick_tap_ms = <175>;
-        global-quick-tap​;
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
     };
