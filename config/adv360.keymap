@@ -37,6 +37,7 @@ bindings = <&kp bind>; key-positions = <k1 k2>; timeout-ms = <30>; }
         #binding-cells = <2>;
         tapping-term-ms = <200>;
         quick_tap_ms = <175>;
+        global-quick-tap​;
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
     };
@@ -57,7 +58,7 @@ bindings = <&kp bind>; key-positions = <k1 k2>; timeout-ms = <30>; }
     &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4    &kp N5             &tog KEYP  &mo MODS   &kp N6     &kp N7     &kp N8     &kp N9    &kp N0  &kp MINUS
       &kp TAB      &kp Q     &kp W     &kp E      &kp R     &kp T              &tog HYPH     XXX      &kp Y      &kp U      &kp I      &kp O     &kp P   &kp BSLH
  &mt LCMD ESC      &kp A     &kp S     &kp D      &kp F     &kp G              &tog UNDS  &kp LCTRL   &kp LALT                        &kp LCTRL  &kp RCMD      XXX     &kp H   &kp J      &kp K    &kp L  &kp SEMI    &kp SQT
-    &kp LSHFT      &kp Z     &kp X     &kp C      &kp V     &kp B              XXX     XXX   &kp HOME      XXX      XXX  &kp PG_UP     XXX      XXX     &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+    &kp LSHFT      &kp Z     &hm LCTRL X &hm LALT C &hm LCMD V &kp B              XXX     XXX   &kp HOME      XXX      XXX  &kp PG_UP     XXX      XXX     &kp N   &hm RCMD M  &hm RALT COMMA  &hm RCTRL DOT  &kp FSLH  &kp RSHFT
         &mo FUNC   &kp GRAVE &kp CAPS  &kp LEFT  &kp RIGHT  &kp BSPC            &kp LCMD   &kp END  &kp PG_DN  &kp ENTER  &kp SPACE   &kp DOWN    &kp UP   &kp LBKT  &kp RBKT   &mo FUNC
             >;
         };
