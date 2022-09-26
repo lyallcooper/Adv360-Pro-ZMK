@@ -52,7 +52,7 @@ bindings = <&kp bind>; key-positions = <k1 k2>; timeout-ms = <30>; }
         bindings = <&kp>, <&kp>;
     };
 
-    1p: 1password_tap_dance {
+    onepass: 1password_tap_dance {
         compatible = "zmk,behavior-tap-dance";
         label = "1P_TAP_DANCE";
         #binding-cells = <0>;
@@ -77,7 +77,7 @@ bindings = <&kp bind>; key-positions = <k1 k2>; timeout-ms = <30>; }
       &kp TAB      &kp Q     &kp W     &kp E      &kp R     &kp T              &tog HYPH     XXX      &kp Y      &kp U      &kp I      &kp O     &kp P   &kp BSLH
  &mt LCMD ESC      &kp A     &kp S     &kp D      &kp F     &kp G              &tog UNDS  &kp LCTRL   &kp LALT                        &kp LCTRL  &kp RCMD      XXX     &kp H   &kp J      &kp K    &kp L  &kp SEMI    &kp SQT
     &kp LSHFT      &kp Z     &kp X     &kp C      &kp V     &kp B              XXX     XXX   &kp HOME      XXX      XXX  &kp PG_UP     XXX      XXX     &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-        &mo FUNC   &kp GRAVE &kp CAPS  &kp LEFT  &kp RIGHT  &mt LSHFT BSPC      &mt LCMD DEL  &kp END  &kp PG_DN  &mt LCTRL ENTER  &mtt LALT SPACE   &kp DOWN    &kp UP   &kp LBKT  &kp RBKT   &1p
+        &mo FUNC   &kp GRAVE &kp CAPS  &kp LEFT  &kp RIGHT  &mt LSHFT BSPC      &mt LCMD DEL  &kp END  &kp PG_DN  &mt LCTRL ENTER  &mtt LALT SPACE   &kp DOWN    &kp UP   &kp LBKT  &kp RBKT   &onepass
             >;
         };
 
