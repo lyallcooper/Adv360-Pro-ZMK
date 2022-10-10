@@ -67,7 +67,7 @@ bindings = <&kp bind>; key-positions = <k1 k2>; timeout-ms = <30>; }
         &kp TAB   &kp Q     &kp W         &kp E         &kp R      &kp T  XXX                                                                        XXX      &kp Y  &kp U    &kp I     &kp O    &kp P    &kp BSLH
    &mt LCMD ESC   &kp A     &kp S         &kp D         &kp F      &kp G  XXX           &kp LCTRL &kp LALT             &kp RCTRL &kp RGUI            XXX      &kp H  &kp J    &kp K     &kp L    &kp SEMI &kp SQT
         &kp LSHFT &kp Z     &kp X         &kp C         &kp V      &kp B           XXX    XXX     &kp HOME   XXX XXX   &kp PG_UP XXX     XXX                  &kp N  &kp M    &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-        &mo FUNC  &kp GRAVE &mt LCTR CAPS &mt LALT LEFT &mt LCMD RIGHT             &mt LSHFT BSPC &mt LCMD DEL &kp END &kp PG_DN &mt LALT ENTER &mtt LCTRL SPACE              &kp DOWN &kp UP    &kp LBKT &kp RBKT &onepass
+        &mo FUNC  &kp GRAVE &mt LCTRL CAPS &mt LALT LEFT &mt LCMD RIGHT            &mt LSHFT BSPC &mt LCMD DEL &kp END &kp PG_DN &mt LALT ENTER &mtt LCTRL SPACE              &kp DOWN &kp UP    &kp LBKT &kp RBKT &onepass
       >;
     };
 
