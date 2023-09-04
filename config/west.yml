@@ -4,10 +4,12 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: refil
       url-base: https://github.com/refil
+    - name: cvcore
+      url-base: https://github.com/cvcore
   projects:
     - name: zmk
-      remote: refil
-      revision: adv360-z3.2-beta
+      remote: cvcore
+      revision: cvcore/adv360-z3.2-beta-ble-user-disconnection
       import: app/west.yml
   self:
     path: config
