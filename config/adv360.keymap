@@ -71,11 +71,13 @@ bindings = <&kp bind>; key-positions = <k1 k2>; timeout-ms = <30>; }
     };
   };
 
+  /*
   combos {
     compatible = "zmk,combos";
     COMBO(16, 17, LC(TAB));
     COMBO(12, 13, SLEEP);
   };
+  */
 
   keymap {
     compatible = "zmk,keymap";
