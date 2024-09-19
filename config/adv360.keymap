@@ -108,7 +108,7 @@ bindings = <&kp bind>; key-positions = <k1 k2>; timeout-ms = <30>; layers = <0 1
         &kp TAB   &kp Q     &kp W         &kp K         &kp S      &kp K  &tog NMAC                                                          &tog BASE &kp O    &kp I    &kp L     &kp SEMI &kp R    &kp BSLH
    &mt LCTRL ESC  &kp A     &kp D         &kp G         &kp E      &kp T  XXX       &kp LCTRL &kp LALT             &kp RCTRL &kp RGUI        &kp GRAVE &kp H    &kp Y    &kp N     &kp U    &kp P    &kp SQT
         &kp LSHFT &kp Z     &kp X         &kp C         &kp V      &kp B                      &kp HOME             &kp PG_UP                           &kp J    &kp M    &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-        &mo FUNC  &kp GRAVE &mt LCTRL CAPS &mt LALT LEFT &mt LCMD RIGHT             &mt SPACE &mt LCMD DEL &kp SPACE &kp PG_DN &mt LALT ENTER &mtt LCTRL SPACE  &kp DOWN &kp UP    &kp LBKT &kp RBKT &onepass
+        &mo FUNC  &kp GRAVE &mt LCTRL CAPS &mt LALT LEFT &mt LCMD RIGHT             &kp SPACE &mt LCMD DEL &kp SPACE &kp PG_DN &mt LALT ENTER &mtt LCTRL SPACE  &kp DOWN &kp UP    &kp LBKT &kp RBKT &onepass
       >;
     };
 
